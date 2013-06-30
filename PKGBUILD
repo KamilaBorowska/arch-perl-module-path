@@ -3,13 +3,13 @@
 pkgname=perl-module-path
 _realname=Module-Path
 pkgver=0.09
-pkgrel=1
+pkgrel=2
 pkgdesc="Get the full path to a locally installed module"
 arch=('any')
 url="http://search.cpan.org/dist/${_realname}/"
 license=('GPL' 'Artistic')
 depends=('perl>=5.10.0')
-builddepends=('perl-devel-findperl')
+makedepends=('perl-devel-findperl')
 source=("http://www.cpan.org/authors/id/N/NE/NEILB/${_realname}-${pkgver}.tar.gz")
 md5sums=('9cb8023ba7aed226d6c6f0dc296077fa')
 options=(!emptydirs)
